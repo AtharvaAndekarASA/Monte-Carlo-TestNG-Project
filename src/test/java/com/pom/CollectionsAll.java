@@ -21,7 +21,6 @@ public class CollectionsAll {
 	
 	@FindBy(xpath="(//a[contains(text(),' Cotton')])[10]")
 	private WebElement productTC10;
-
 	
 	public CollectionsAll(WebDriver driver) {
 		PageFactory.initElements(driver,this);
