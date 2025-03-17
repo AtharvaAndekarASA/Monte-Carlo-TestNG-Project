@@ -3,16 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testscript.TestCase3"/>
-      <class name="com.testscript.TestCase2"/>
-      <class name="com.testscript.TestCase1"/>
-      <class name="com.testscript.TestCase7"/>
-      <class name="com.testscript.TestCase10"/>
-      <class name="com.testscript.TestCase6"/>
-      <class name="com.testscript.TestCase5"/>
-      <class name="com.testscript.TestCase4"/>
-      <class name="com.testscript.TestCase9"/>
-      <class name="com.testscript.TestCase8"/>
+      <class name="com.testscript.TC_01_AddingProductToCart"/>      
+      <class name="com.testscript.TC_02_HandTowelProductAdding"/>
+      <class name="com.testscript.TC_03_VerifyPincode"/>
+      <class name="com.testscript.TC_04_InitiateCheckout"/>
+      <class name="com.testscript.TC_05_ManufacturerAddress"/>
+      <class name="com.testscript.TC_06_AddingAddress"/>
+      <class name="com.testscript.TC_07_DeletingAddress"/>
+      <class name="com.testscript.TC_08_ResetFilterAddToWishlist"/>
+      <class name="com.testscript.TC_09_AddToWhishLlistAndCart"/>
+      <class name="com.testscript.TC_10_ProductVerification"/>    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

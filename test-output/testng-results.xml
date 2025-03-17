@@ -1,31 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Atharva Andekar newly Added address
+Pune
+411002 AN
+India]]>
+    </line>
     <line>
       <![CDATA[300 TC Cotton King Size Luxury 7 Pc Bedding Set (Heritage)]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-03T12:32:57 IST" name="Default suite" finished-at="2025-02-03T12:35:14 IST" duration-ms="136092">
+  <suite started-at="2025-02-16T19:42:16 IST" name="Suite" finished-at="2025-02-16T19:48:09 IST" duration-ms="352691">
     <groups>
     </groups>
-    <test started-at="2025-02-03T12:32:57 IST" name="Default test" finished-at="2025-02-03T12:35:14 IST" duration-ms="136092">
-      <class name="com.testscript.TestCase10">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TestCase10@f5ac9e4]" started-at="2025-02-03T12:32:58 IST" name="openApp" finished-at="2025-02-03T12:33:33 IST" duration-ms="35548" status="PASS">
+    <test started-at="2025-02-16T19:42:16 IST" name="Test" finished-at="2025-02-16T19:48:09 IST" duration-ms="352691">
+      <class name="com.testscript.TC_08_ResetFilterAddToWishlist">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_08_ResetFilterAddToWishlist@ce5a68e]" started-at="2025-02-16T19:46:19 IST" name="openApp" finished-at="2025-02-16T19:46:31 IST" duration-ms="12571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="TestCase()[pri:0, instance:com.testscript.TestCase10@f5ac9e4]" started-at="2025-02-03T12:33:33 IST" name="TestCase" finished-at="2025-02-03T12:35:12 IST" duration-ms="98568" status="PASS">
+        <test-method signature="TestCase08_ResetFilterAddToWishlist()[pri:0, instance:com.testscript.TC_08_ResetFilterAddToWishlist@ce5a68e]" started-at="2025-02-16T19:46:31 IST" name="TestCase08_ResetFilterAddToWishlist" finished-at="2025-02-16T19:46:44 IST" duration-ms="12435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase08_ResetFilterAddToWishlist -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_08_ResetFilterAddToWishlist@ce5a68e]" started-at="2025-02-16T19:46:44 IST" name="closeApp" finished-at="2025-02-16T19:46:46 IST" duration-ms="1792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_08_ResetFilterAddToWishlist -->
+      <class name="com.testscript.TC_01_AddingProductToCart">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_01_AddingProductToCart@2484f433]" started-at="2025-02-16T19:42:16 IST" name="openApp" finished-at="2025-02-16T19:42:30 IST" duration-ms="13315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase01_AddingProductToCart()[pri:0, instance:com.testscript.TC_01_AddingProductToCart@2484f433]" started-at="2025-02-16T19:42:30 IST" name="TestCase01_AddingProductToCart" finished-at="2025-02-16T19:42:50 IST" duration-ms="20167" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=133.0.3065.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3c69556152dc2cf2e6984623bc097a1, clickElement {id=f.37E9DC62BA7E0B21E6B583F5025419F3.d.EC0D41C5C1093A328FC308CFEDC44B84.e.390}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59334}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d3c69556152dc2cf2e6984623bc097a1)] -> xpath: (//a[contains(text(),'Bed Comforter for AC Room')])[2]]
+Session ID: d3c69556152dc2cf2e6984623bc097a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=133.0.3065.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3c69556152dc2cf2e6984623bc097a1, clickElement {id=f.37E9DC62BA7E0B21E6B583F5025419F3.d.EC0D41C5C1093A328FC308CFEDC44B84.e.390}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59334}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d3c69556152dc2cf2e6984623bc097a1)] -> xpath: (//a[contains(text(),'Bed Comforter for AC Room')])[2]]
+Session ID: d3c69556152dc2cf2e6984623bc097a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.pom.AcComforterPage.selectTheProduct(AcComforterPage.java:164)
+at com.testscript.TC_01_AddingProductToCart.TestCase01_AddingProductToCart(TC_01_AddingProductToCart.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase01_AddingProductToCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_01_AddingProductToCart@2484f433]" started-at="2025-02-16T19:42:50 IST" name="closeApp" finished-at="2025-02-16T19:42:52 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_01_AddingProductToCart -->
+      <class name="com.testscript.TC_04_InitiateCheckout">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_04_InitiateCheckout@6d8792db]" started-at="2025-02-16T19:44:03 IST" name="openApp" finished-at="2025-02-16T19:44:14 IST" duration-ms="11425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase04_InitiateCheckout()[pri:0, instance:com.testscript.TC_04_InitiateCheckout@6d8792db]" started-at="2025-02-16T19:44:14 IST" name="TestCase04_InitiateCheckout" finished-at="2025-02-16T19:44:34 IST" duration-ms="19971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase04_InitiateCheckout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_04_InitiateCheckout@6d8792db]" started-at="2025-02-16T19:44:34 IST" name="closeApp" finished-at="2025-02-16T19:44:36 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_04_InitiateCheckout -->
+      <class name="com.testscript.TC_02_HandTowelProductAdding">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_02_HandTowelProductAdding@593e824f]" started-at="2025-02-16T19:42:52 IST" name="openApp" finished-at="2025-02-16T19:43:06 IST" duration-ms="13609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase02_HandTowelProductAdding()[pri:0, instance:com.testscript.TC_02_HandTowelProductAdding@593e824f]" started-at="2025-02-16T19:43:06 IST" name="TestCase02_HandTowelProductAdding" finished-at="2025-02-16T19:43:23 IST" duration-ms="17844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase02_HandTowelProductAdding -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_02_HandTowelProductAdding@593e824f]" started-at="2025-02-16T19:43:23 IST" name="closeApp" finished-at="2025-02-16T19:43:25 IST" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_02_HandTowelProductAdding -->
+      <class name="com.testscript.TC_06_AddingAddress">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_06_AddingAddress@493dfb8e]" started-at="2025-02-16T19:45:14 IST" name="openApp" finished-at="2025-02-16T19:45:26 IST" duration-ms="12486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase06_Adding_Address()[pri:0, instance:com.testscript.TC_06_AddingAddress@493dfb8e]" started-at="2025-02-16T19:45:26 IST" name="TestCase06_Adding_Address" finished-at="2025-02-16T19:45:41 IST" duration-ms="15006" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Atharva Andekar newly Added address
+Pune
+411002 AN
+India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase06_Adding_Address -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_06_AddingAddress@493dfb8e]" started-at="2025-02-16T19:45:41 IST" name="closeApp" finished-at="2025-02-16T19:45:43 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_06_AddingAddress -->
+      <class name="com.testscript.TC_09_AddToWhishLlistAndCart">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_09_AddToWhishLlistAndCart@9d157ff]" started-at="2025-02-16T19:46:46 IST" name="openApp" finished-at="2025-02-16T19:46:58 IST" duration-ms="12677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase09_AddToWhishLlistAndCart()[pri:0, instance:com.testscript.TC_09_AddToWhishLlistAndCart@9d157ff]" started-at="2025-02-16T19:46:58 IST" name="TestCase09_AddToWhishLlistAndCart" finished-at="2025-02-16T19:47:17 IST" duration-ms="18722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase09_AddToWhishLlistAndCart -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_09_AddToWhishLlistAndCart@9d157ff]" started-at="2025-02-16T19:47:17 IST" name="closeApp" finished-at="2025-02-16T19:47:19 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_09_AddToWhishLlistAndCart -->
+      <class name="com.testscript.TC_03_VerifyPincode">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_03_VerifyPincode@72ccd81a]" started-at="2025-02-16T19:43:25 IST" name="openApp" finished-at="2025-02-16T19:43:46 IST" duration-ms="20106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase03_VerifyPincode()[pri:0, instance:com.testscript.TC_03_VerifyPincode@72ccd81a]" started-at="2025-02-16T19:43:46 IST" name="TestCase03_VerifyPincode" finished-at="2025-02-16T19:44:01 IST" duration-ms="15271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase03_VerifyPincode -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_03_VerifyPincode@72ccd81a]" started-at="2025-02-16T19:44:01 IST" name="closeApp" finished-at="2025-02-16T19:44:03 IST" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_03_VerifyPincode -->
+      <class name="com.testscript.TC_10_ProductVerification">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_10_ProductVerification@2f162cc0]" started-at="2025-02-16T19:47:19 IST" name="openApp" finished-at="2025-02-16T19:47:33 IST" duration-ms="13916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase10_ProductVerification()[pri:0, instance:com.testscript.TC_10_ProductVerification@2f162cc0]" started-at="2025-02-16T19:47:33 IST" name="TestCase10_ProductVerification" finished-at="2025-02-16T19:48:07 IST" duration-ms="34268" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[300 TC Cotton King Size Luxury 7 Pc Bedding Set (Heritage)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TestCase -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TestCase10@f5ac9e4]" started-at="2025-02-03T12:35:12 IST" name="closeApp" finished-at="2025-02-03T12:35:14 IST" duration-ms="1933" status="PASS">
+        </test-method> <!-- TestCase10_ProductVerification -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_10_ProductVerification@2f162cc0]" started-at="2025-02-16T19:48:07 IST" name="closeApp" finished-at="2025-02-16T19:48:09 IST" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- com.testscript.TestCase10 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.testscript.TC_10_ProductVerification -->
+      <class name="com.testscript.TC_05_ManufacturerAddress">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_05_ManufacturerAddress@64bc21ac]" started-at="2025-02-16T19:44:36 IST" name="openApp" finished-at="2025-02-16T19:44:52 IST" duration-ms="15855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase05_ManufactureAddress()[pri:0, instance:com.testscript.TC_05_ManufacturerAddress@64bc21ac]" started-at="2025-02-16T19:44:52 IST" name="TestCase05_ManufactureAddress" finished-at="2025-02-16T19:45:12 IST" duration-ms="20273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase05_ManufactureAddress -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_05_ManufacturerAddress@64bc21ac]" started-at="2025-02-16T19:45:12 IST" name="closeApp" finished-at="2025-02-16T19:45:14 IST" duration-ms="1768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_05_ManufacturerAddress -->
+      <class name="com.testscript.TC_07_DeletingAddress">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.testscript.TC_07_DeletingAddress@5d25e6bb]" started-at="2025-02-16T19:45:43 IST" name="openApp" finished-at="2025-02-16T19:46:02 IST" duration-ms="18510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="TestCase07_DeletingAddress()[pri:0, instance:com.testscript.TC_07_DeletingAddress@5d25e6bb]" started-at="2025-02-16T19:46:02 IST" name="TestCase07_DeletingAddress" finished-at="2025-02-16T19:46:17 IST" duration-ms="15255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase07_DeletingAddress -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.testscript.TC_07_DeletingAddress@5d25e6bb]" started-at="2025-02-16T19:46:17 IST" name="closeApp" finished-at="2025-02-16T19:46:19 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testscript.TC_07_DeletingAddress -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

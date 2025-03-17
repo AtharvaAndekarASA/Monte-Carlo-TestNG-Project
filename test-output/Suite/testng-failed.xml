@@ -3,27 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testscript.TestCase3">
+      <class name="com.testscript.TC_01_AddingProductToCart">
         <methods>
           <include name="closeApp"/>
-          <include name="TestCase"/>
+          <include name="TestCase01_AddingProductToCart"/>
           <include name="openApp"/>
         </methods>
-      </class> <!-- com.testscript.TestCase3 -->
-      <class name="com.testscript.TestCase9">
-        <methods>
-          <include name="TestCase9a"/>
-          <include name="closeApp"/>
-          <include name="openApp"/>
-        </methods>
-      </class> <!-- com.testscript.TestCase9 -->
-      <class name="com.testscript.TestCase7">
-        <methods>
-          <include name="closeApp"/>
-          <include name="TestCase"/>
-          <include name="openApp"/>
-        </methods>
-      </class> <!-- com.testscript.TestCase7 -->
+      </class> <!-- com.testscript.TC_01_AddingProductToCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

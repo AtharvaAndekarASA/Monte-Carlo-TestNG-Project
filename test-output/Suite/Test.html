@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 03 10:23:11 IST 2025</td>
+<td>Started on:</td><td>Sun Feb 16 19:42:16 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>966 seconds (966404 ms)</td>
+<tr><td>Total time:</td><td>352 seconds (352691 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,102 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testscript.TestCase7.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase7</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[text()=&apos;Delete&apos;])[2]&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+<td title='com.testscript.TC_01_AddingProductToCart.TestCase01_AddingProductToCart()'><b>TestCase01_AddingProductToCart</b><br>Test class: com.testscript.TC_01_AddingProductToCart</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=133.0.3065.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e2d73dde5ac232c5478247bbbc5f5ee5, findElement {value=(//button[text()=&apos;Delete&apos;])[2], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52138}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e2d73dde5ac232c5478247bbbc5f5ee5
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.AddressPage.deleteaddress(AddressPage.java:67)
-	at com.testscript.TestCase7.TestCase(TestCase7.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace71209097", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace71209097'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//button[text()=&apos;Delete&apos;])[2]&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e2d73dde5ac232c5478247bbbc5f5ee5, findElement {value=(//button[text()=&apos;Delete&apos;])[2], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52138}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52138/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e2d73dde5ac232c5478247bbbc5f5ee5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.AddressPage.deleteaddress(AddressPage.java:67)
-	at com.testscript.TestCase7.TestCase(TestCase7.java:28)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>32</td>
-<td>com.testscript.TestCase7@67d48005</td></tr>
-<tr>
-<td title='com.testscript.TestCase9.TestCase9a()'><b>TestCase9a</b><br>Test class: com.testscript.TestCase9</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; is=&quot;toggle-button&quot; id=&quot;order-note-toggle&quot; class=&quot;link&quot; data-action=&quot;toggle-order-note&quot; aria-controls=&quot;mini-cart-note&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (1189, 373). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
-  (Session info: MicrosoftEdge=132.0.2957.127)
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c7a85c40ba8b0229b66d44a069ae7c61, clickElement {id=f.AFB6067A24E539E8CCE85AA3CA073167.d.56B5A593813048770FDE3D603148E6DA.e.438}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54665}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c7a85c40ba8b0229b66d44a069ae7c61)] -&gt; id: order-note-toggle]
-Session ID: c7a85c40ba8b0229b66d44a069ae7c61
+Command: [d3c69556152dc2cf2e6984623bc097a1, clickElement {id=f.37E9DC62BA7E0B21E6B583F5025419F3.d.EC0D41C5C1093A328FC308CFEDC44B84.e.390}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59334}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d3c69556152dc2cf2e6984623bc097a1)] -&gt; xpath: (//a[contains(text(),&apos;Bed Comforter for AC Room&apos;)])[2]]
+Session ID: d3c69556152dc2cf2e6984623bc097a1
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -180,21 +95,20 @@ Session ID: c7a85c40ba8b0229b66d44a069ae7c61
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.ProductTC9SecondProduct.addEditNote(ProductTC9SecondProduct.java:34)
-	at com.testscript.TestCase9.TestCase9a(TestCase9.java:37)
+	at com.pom.AcComforterPage.selectTheProduct(AcComforterPage.java:164)
+	at com.testscript.TC_01_AddingProductToCart.TestCase01_AddingProductToCart(TC_01_AddingProductToCart.java:149)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1821370276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1821370276'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; is=&quot;toggle-button&quot; id=&quot;order-note-toggle&quot; class=&quot;link&quot; data-action=&quot;toggle-order-note&quot; aria-controls=&quot;mini-cart-note&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (1189, 373). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
-  (Session info: MicrosoftEdge=132.0.2957.127)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1168232535", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1168232535'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=133.0.3065.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [c7a85c40ba8b0229b66d44a069ae7c61, clickElement {id=f.AFB6067A24E539E8CCE85AA3CA073167.d.56B5A593813048770FDE3D603148E6DA.e.438}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54665}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (c7a85c40ba8b0229b66d44a069ae7c61)] -&gt; id: order-note-toggle]
-Session ID: c7a85c40ba8b0229b66d44a069ae7c61
+Command: [d3c69556152dc2cf2e6984623bc097a1, clickElement {id=f.37E9DC62BA7E0B21E6B583F5025419F3.d.EC0D41C5C1093A328FC308CFEDC44B84.e.390}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 133.0.3065.59, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59334}, msedge: {msedgedriverVersion: 133.0.3065.69 (c3f010c11f3e..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59334/devtoo..., se:cdpVersion: 133.0.3065.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d3c69556152dc2cf2e6984623bc097a1)] -&gt; xpath: (//a[contains(text(),&apos;Bed Comforter for AC Room&apos;)])[2]]
+Session ID: d3c69556152dc2cf2e6984623bc097a1
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -207,12 +121,8 @@ Session ID: c7a85c40ba8b0229b66d44a069ae7c61
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.ProductTC9SecondProduct.addEditNote(ProductTC9SecondProduct.java:34)
-	at com.testscript.TestCase9.TestCase9a(TestCase9.java:37)
+	at com.pom.AcComforterPage.selectTheProduct(AcComforterPage.java:164)
+	at com.testscript.TC_01_AddingProductToCart.TestCase01_AddingProductToCart(TC_01_AddingProductToCart.java:149)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -240,94 +150,8 @@ Session ID: c7a85c40ba8b0229b66d44a069ae7c61
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>68</td>
-<td>com.testscript.TestCase9@5876a9af</td></tr>
-<tr>
-<td title='com.testscript.TestCase3.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase3</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;Round Neck Sweaters&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6fcb0281bf342957e235cb12b38aeef0, findElement {value=Round Neck Sweaters, using=partial link text}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51039}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51039/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6fcb0281bf342957e235cb12b38aeef0
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.AccountsPage.rnSweaters(AccountsPage.java:102)
-	at com.testscript.TestCase3.TestCase(TestCase3.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1366811528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1366811528'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;Round Neck Sweaters&quot;}
-  (Session info: MicrosoftEdge=132.0.2957.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [6fcb0281bf342957e235cb12b38aeef0, findElement {value=Round Neck Sweaters, using=partial link text}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.127, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51039}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\aa114102\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51039/devtoo..., se:cdpVersion: 132.0.2957.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6fcb0281bf342957e235cb12b38aeef0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-	at com.pom.AccountsPage.rnSweaters(AccountsPage.java:102)
-	at com.testscript.TestCase3.TestCase(TestCase3.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>36</td>
-<td>com.testscript.TestCase3@402bba4f</td></tr>
+<td>20</td>
+<td>com.testscript.TC_01_AddingProductToCart@2484f433</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -337,61 +161,74 @@ Session ID: 6fcb0281bf342957e235cb12b38aeef0
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testscript.TestCase8.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase8</td>
+<td title='com.testscript.TC_02_HandTowelProductAdding.TestCase02_HandTowelProductAdding()'><b>TestCase02_HandTowelProductAdding</b><br>Test class: com.testscript.TC_02_HandTowelProductAdding</td>
 <td></td>
-<td>51</td>
-<td>com.testscript.TestCase8@7ec7ffd3</td></tr>
+<td>17</td>
+<td>com.testscript.TC_02_HandTowelProductAdding@593e824f</td></tr>
 <tr>
-<td title='com.testscript.TestCase4.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase4</td>
+<td title='com.testscript.TC_08_ResetFilterAddToWishlist.TestCase08_ResetFilterAddToWishlist()'><b>TestCase08_ResetFilterAddToWishlist</b><br>Test class: com.testscript.TC_08_ResetFilterAddToWishlist</td>
 <td></td>
-<td>57</td>
-<td>com.testscript.TestCase4@59309333</td></tr>
+<td>12</td>
+<td>com.testscript.TC_08_ResetFilterAddToWishlist@ce5a68e</td></tr>
 <tr>
-<td title='com.testscript.TestCase10.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase10<br/>
-<a href="#Output-256522893" onClick='toggleBox("Output-256522893", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.testscript.TC_03_VerifyPincode.TestCase03_VerifyPincode()'><b>TestCase03_VerifyPincode</b><br>Test class: com.testscript.TC_03_VerifyPincode</td>
+<td></td>
+<td>15</td>
+<td>com.testscript.TC_03_VerifyPincode@72ccd81a</td></tr>
+<tr>
+<td title='com.testscript.TC_04_InitiateCheckout.TestCase04_InitiateCheckout()'><b>TestCase04_InitiateCheckout</b><br>Test class: com.testscript.TC_04_InitiateCheckout</td>
+<td></td>
+<td>19</td>
+<td>com.testscript.TC_04_InitiateCheckout@6d8792db</td></tr>
+<tr>
+<td title='com.testscript.TC_06_AddingAddress.TestCase06_Adding_Address()'><b>TestCase06_Adding_Address</b><br>Test class: com.testscript.TC_06_AddingAddress<br/>
+<a href="#Output-954207047" onClick='toggleBox("Output-954207047", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-256522893" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-256522893">
+<a href="#Output-954207047" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-954207047">
+Atharva Andekar newly Added address
+Pune
+411002 AN
+India<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.testscript.TC_06_AddingAddress@493dfb8e</td></tr>
+<tr>
+<td title='com.testscript.TC_07_DeletingAddress.TestCase07_DeletingAddress()'><b>TestCase07_DeletingAddress</b><br>Test class: com.testscript.TC_07_DeletingAddress</td>
+<td></td>
+<td>15</td>
+<td>com.testscript.TC_07_DeletingAddress@5d25e6bb</td></tr>
+<tr>
+<td title='com.testscript.TC_10_ProductVerification.TestCase10_ProductVerification()'><b>TestCase10_ProductVerification</b><br>Test class: com.testscript.TC_10_ProductVerification<br/>
+<a href="#Output-1283050069" onClick='toggleBox("Output-1283050069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1283050069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1283050069">
 300 TC Cotton King Size Luxury 7 Pc Bedding Set (Heritage)<br/>
 </div>
 </td>
 <td></td>
-<td>55</td>
-<td>com.testscript.TestCase10@9f116cc</td></tr>
+<td>34</td>
+<td>com.testscript.TC_10_ProductVerification@2f162cc0</td></tr>
 <tr>
-<td title='com.testscript.TestCase2.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase2</td>
-<td></td>
-<td>56</td>
-<td>com.testscript.TestCase2@6379eb</td></tr>
-<tr>
-<td title='com.testscript.TestCase1.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase1</td>
-<td></td>
-<td>73</td>
-<td>com.testscript.TestCase1@294425a7</td></tr>
-<tr>
-<td title='com.testscript.TestCase5.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase5<br/>
-<a href="#Output-529766927" onClick='toggleBox("Output-529766927", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.testscript.TC_05_ManufacturerAddress.TestCase05_ManufactureAddress()'><b>TestCase05_ManufactureAddress</b><br>Test class: com.testscript.TC_05_ManufacturerAddress<br/>
+<a href="#Output-856901180" onClick='toggleBox("Output-856901180", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-529766927" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-529766927">
+<a href="#Output-856901180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-856901180">
 <br/>
 </div>
 </td>
 <td></td>
-<td>67</td>
-<td>com.testscript.TestCase5@1aa7ecca</td></tr>
+<td>20</td>
+<td>com.testscript.TC_05_ManufacturerAddress@64bc21ac</td></tr>
 <tr>
-<td title='com.testscript.TestCase6.TestCase()'><b>TestCase</b><br>Test class: com.testscript.TestCase6<br/>
-<a href="#Output-1400324426" onClick='toggleBox("Output-1400324426", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1400324426" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1400324426">
-Address 2<br/>
-</div>
-</td>
+<td title='com.testscript.TC_09_AddToWhishLlistAndCart.TestCase09_AddToWhishLlistAndCart()'><b>TestCase09_AddToWhishLlistAndCart</b><br>Test class: com.testscript.TC_09_AddToWhishLlistAndCart</td>
 <td></td>
-<td>53</td>
-<td>com.testscript.TestCase6@12468a38</td></tr>
+<td>18</td>
+<td>com.testscript.TC_09_AddToWhishLlistAndCart@9d157ff</td></tr>
 </table><p>
 </body>
 </html>
